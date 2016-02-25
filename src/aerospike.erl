@@ -44,7 +44,7 @@
 %% ===================================================================
 
 % Define this module and file:  erlpike.erl
--module(erlpike).
+-module(aerospike).
 
 %% These are the functions that we define here and will make available
 %% to any caller who wants to import us.
@@ -53,7 +53,7 @@
 	histogram/1, stopwatch/1]).
 
 %% Include our record definitions.
--include("./erlpike.hrl").
+-include("./aerospike.hrl").
 
 %% When this module is loaded, load the aerospike Erlang Library
 %% (file aerospike_nif.so), which is expected to be in the current directory.
